@@ -1,0 +1,2 @@
+The correct string for function 2 is:
+"You solved the problem"
