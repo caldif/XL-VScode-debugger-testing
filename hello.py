@@ -1,6 +1,5 @@
 greeting: str = "hello"
 
-place: str = "world"
 
 
 print(greeting) #breakpoint here to show how the vairables pop out
@@ -9,6 +8,6 @@ print(greeting) #breakpoint here to show how the vairables pop out
 #logpoint to just print goodbye
 greeting = greeting + ' ' + place 
 
-#place: str = "world"
+place: str = "world"
 
 print(greeting) #breakpoint here to show the vairables changing
