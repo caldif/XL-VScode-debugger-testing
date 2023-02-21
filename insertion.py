@@ -5,15 +5,10 @@ def insertionSort(arr):
  
     # Traverse through 1 to len(arr)
     for i in range(1, len(arr)):
-        #add breakpoint here so they can see array changing
-        #then change to hit and or conditional breakpoint
+        #add breakpoint here so you can see array changing
         key = arr[i]
  
-        # Move elements of arr[0..i-1], that are
-        # greater than key, to one position ahead
-        # of their current position
         j = i-1
-        #breakpoint here to show how using the step command takes it line by line
         while j >= 0 and key < arr[j] :
                 arr[j + 1] = arr[j]
                 j -= 1

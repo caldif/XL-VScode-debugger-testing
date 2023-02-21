@@ -6,7 +6,7 @@ In this workshop you will gain familiarity with the VS Code built in debugger!
 ## Part 1 - Hello World
 In this section you will gain familiarity with the basic tools of the debugger. Go to the `hello.py`  and click the run and debug button in the sidebar. This will run the code in the debugger and an error will be thrown, fix this error before proceeding.
 
-After the error is fixed add a breakpoint to your code somewhere before line 10.
+After the error is fixed add a breakpoint to your code somewhere on line 7.
 >### Breakpoints
 > Break points are places in the code you tell the debugger to stop so you can look at everything that is happening at the exact instant when the code stops. You can place a break point by clicking to the left of any line number in the code. This will make a red circle appear designating the start of that line as a breakpoint
 
@@ -28,7 +28,7 @@ Try placing different breakpoints, changing vairables and different navigations 
 
 ## Part 2 - Insertion Sort
 
-Open the `insertion.py` file. this is a sorting algorithm that puts a list in order. Add a breakpoint within the loop in and run the debugger. You can see the array chaning every time the breakpoint is hit in the loop as it sorts.
+Open the `insertion.py` file. this is a sorting algorithm that puts a list in order. Add a breakpoint on line 10. You can see the array chaning every time the breakpoint is hit in the loop as it sorts.
 
 Now we are going to try adding a conditional breakpoint to the loop.
 > ### Conditional Breakpoints

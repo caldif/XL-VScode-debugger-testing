@@ -1,7 +1,3 @@
-#create functions that return variables to a main
-#have them create breakpoints in the fucntions to stop it from reaching a certain point
-#then live change a variable so the return is a certain thing
-#using conditional breakpoints
 
 def function_1(x: int) -> int: #using breakpoints and log points modify x in this function to return the correct number 
     i: int = 0
@@ -27,7 +23,7 @@ def main() -> None:
         return
     y = "Lou shaved the poodles"
     y = function_2(y)
-    print(y) #Lou shaved the poodles -> You solved the problem
+    print(y)
 
 
 if __name__ == '__main__':
