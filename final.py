@@ -1,3 +1,12 @@
+def main() -> None:
+    x: int = 0
+    x = function_1(x)
+    if(x != 10):
+        print("Try again :(")
+        return
+    y = "Lou shaved the poodles"
+    y = function_2(y)
+    print(y)
 
 def function_1(x: int) -> int: #using breakpoints and log points modify x in this function to return the correct number 
     i: int = 0
@@ -14,16 +23,6 @@ def function_2(y: str) -> str: #using breakpoints and logpoints change the lette
     for letter in y:
         new += letter
     return new
-
-def main() -> None:
-    x: int = 0
-    x = function_1(x)
-    if(x != 10):
-        print("Try again :(")
-        return
-    y = "Lou shaved the poodles"
-    y = function_2(y)
-    print(y)
 
 
 if __name__ == '__main__':

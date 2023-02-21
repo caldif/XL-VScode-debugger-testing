@@ -18,9 +18,9 @@ Naviage through the rest of the code using the buttons that appeared at the top 
 >### Navigation
 >There are 6 navigation buttons, in order they are:
 >* Continue: The code resumes running as norma until the next breakpoint
->* Step over: Executes the next method as a single command without inspecting or following its component steps.
+>* Step over: Executes the next function as a single command without inspecting or following its component steps.
 >* Step into: Enter the next method to follow its execution line-by-line.
->* Step out: When inside a method or function finishes executing the remainder of that code
+>* Step out: When inside a function finishes executing the remainder of that code
 >* Restart: Terminates the current debugging session and starts a new one from the beggining of the code
 >* Stop: terminates the debugging session
 
@@ -49,4 +49,4 @@ Use what you have learned about breakpoints, log points, and variable changing t
 
 In function one you are only allowed to modify the x variable. Use breakpoints and logpoints to stop the program at the right time so that modifying x will result in the correct return value.
 
-In function two you are only allowed to modify the letters vaiable, you are allowed to change this variable exactly 6 times. By changing the letter variable transformed the passed string into a hidden message. The correct message is in the solutions.txt file.
+In function two you are only allowed to modify the letters variable, you are allowed to change this variable exactly 6 times. By changing the letter variable transformed the passed string into a hidden message. The correct message is in the solutions.txt file.

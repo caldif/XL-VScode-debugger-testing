@@ -18,8 +18,7 @@ def insertionSort(arr):
 def main() -> None: 
     arr = [12, 24, 8, 11, 4, 13, 5, 6]
     insertionSort(arr)
-    for i in range(len(arr)):
-        print(arr[i])
+    print(arr)
  
 if __name__ == '__main__':
     main()
