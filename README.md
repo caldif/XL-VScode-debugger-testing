@@ -38,7 +38,7 @@ Now we are going to try adding a conditional breakpoint to the loop.
 
 You add these breakpoints by right clicking instead of left clicking when going to add a breakpoint and selecting `conditional breakpoint`. Try adding a breakpoint on line 15 that halts the debugger every 3 times it is hit. Experiment with hit counts of different numbers.
 
-Now try adding an expression breakpoint that will stop the code when the third number is in it's correct, sorted place in the given list in main.
+Now try adding an expression breakpoint that will stop the code when the second number is in it's correct, sorted place in the given list in main.
 
 If you want to keep track of the array being sorted without halting the debugger you can try adding a log point.
 >### Log points
